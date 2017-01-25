@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2016, 12:17:33 AM
+    Author     : dmachace
+*/
+
+#inputField {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+}
+#inputField:focus {
+    
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#phoneList {
+
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#phoneList td, #phoneList th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#phoneList tr.even {background-color: #f2f2f2}
+#phoneList tr.odd {background-color: #ffffff}
+
+#phoneList tr:hover {background-color: #00A7C8;}
+
+#phoneList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #01568F;
+    color: white;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
